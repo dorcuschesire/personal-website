@@ -10,7 +10,7 @@ function addItem(){
 }
 function markAsPurchased(index){
     items[index].purchased=!
-    items[insdex].purchased;
+    items[index].purchased;
     renderList();
 }
 function clearList(){
