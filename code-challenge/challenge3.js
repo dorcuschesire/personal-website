@@ -1,4 +1,4 @@
-function calculateNetSalary()
+function calculateNetSalary(){
  let basicSalary =parseFloat(document.getElementById('basic.salary').value);
 let benefits =parseFloat(document.getElementById('benefits').value);
 
@@ -10,3 +10,4 @@ let grosssalary = Math.floor(basicSalary + benefits);
 let netsalary = grossSalary - payee - NHIFDeductions - NSSFDeductions;
 let resultElement = document.getElementById("result");
 resultElement.innerHTML
+}
